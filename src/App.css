@@ -1,0 +1,120 @@
+/* Adicione isso no seu arquivo CSS */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('./images/image.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #fff; /* Cor do texto */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.form-container,
+.table-container {
+  width: 45%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Adicione esta linha para incluir padding e borda no tamanho total */
+  background-color: #e0f7fa; /* Cor de fundo para os contêineres */
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+label {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #004d40; /* Cor do texto do label */
+}
+
+input,
+select {
+  width: calc(100% - 16px); /* Reduzir o tamanho para acomodar o padding */
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box; /* Incluir padding no tamanho total */
+}
+
+.button-container {
+  display: flex;
+  gap: 8px; /* Espaçamento entre os botões */
+}
+
+.action-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+td.receita {
+  background-color: #dff0d8;
+}
+
+td.despesa {
+  background-color: #f2dede;
+}
+
+p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #004d40; /* Cor do texto do parágrafo */
+}
+
+.action-button {
+  margin-right: 8px; /* Ajuste o valor conforme necessário para o espaçamento desejado */
+}
+
+.button-container {
+  display: flex; /* Adiciona um layout flexível para os botões ficarem na mesma linha */
+  gap: 8px; /* Adiciona um espaçamento uniforme entre os botões */
+  margin-top: 10px; /* Adiciona um espaçamento acima dos botões, se necessário */
+}
